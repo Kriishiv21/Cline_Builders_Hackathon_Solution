@@ -1,0 +1,6 @@
+version: "1.0.0"
+ucb_alpha: 0.5
+reward_weight_correct_detection: 1.0
+reward_weight_burden: -0.5
+reward_weight_false_positive: -1.0
+promotion_min_offline_improvement: 0.05

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "otp_share_request",
+    "label": "OTP sharing request",
+    "keywords": ["otp", "one time password", "verification code", "share the code"],
+    "is_lookalike": false
+  },
+  {
+    "id": "bank_impersonation",
+    "label": "Bank/government official impersonation",
+    "keywords": ["bank official", "kyc update", "account suspended", "income tax department", "customs"],
+    "is_lookalike": false
+  },
+  {
+    "id": "remote_access_request",
+    "label": "Remote access / screen-share request",
+    "keywords": ["anydesk", "teamviewer", "install this app", "screen share", "remote access"],
+    "is_lookalike": false
+  },
+  {
+    "id": "urgent_payment_pressure",
+    "label": "Urgent payment pressure",
+    "keywords": ["pay now", "within 24 hours", "account will be blocked", "last warning"],
+    "is_lookalike": false
+  },
+  {
+    "id": "genuine_bank_otp_alert",
+    "label": "Genuine bank OTP/transaction alert (lookalike)",
+    "keywords": ["your otp is", "do not share this otp", "transaction alert", "statement is ready"],
+    "is_lookalike": true
+  },
+  {
+    "id": "delivery_otp_lookalike",
+    "label": "Delivery confirmation OTP (lookalike)",
+    "keywords": ["delivery otp", "courier will arrive", "confirm delivery code"],
+    "is_lookalike": true
+  }
+]

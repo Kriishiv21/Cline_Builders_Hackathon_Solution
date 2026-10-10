@@ -1,0 +1,3 @@
+version: "1.0.0"
+min_similarity_ratio: 0.55
+max_segments_per_call: 20

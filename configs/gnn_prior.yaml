@@ -1,0 +1,4 @@
+version: "1.0.0"
+enabled: false   # ablation-gated; architecture doc marks C05 "Specified, unproven"
+hub_degree_cap: 200
+propagation_hops: 1

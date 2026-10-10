@@ -1,0 +1,5 @@
+version: "1.0.0"
+tau_hours: 36.0
+per_reporter_cap: 5
+quarantine_min_reporters: 3
+hub_degree_cap: 200

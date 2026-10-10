@@ -1,0 +1,5 @@
+version: "1.0.0"
+tier1_threshold: 0.3
+tier2_threshold: 0.6
+tier3_threshold: 0.85
+alert_budget_per_user_per_day: 5

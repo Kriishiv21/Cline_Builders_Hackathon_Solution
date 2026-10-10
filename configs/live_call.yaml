@@ -1,0 +1,6 @@
+version: "1.0.0"
+raise_threshold: 65.0
+clear_threshold: 40.0
+critical_threshold: 85.0
+spam_prior_weight: 10.0
+lookalike_max_subtraction: 20.0

@@ -1,0 +1,9 @@
+version: "1.0.0"
+default_signal_weight: 1.0
+non_probability_signal_cap: 0.15
+signal_weights:
+  stage3_slm_chat_suspicion: 1.0
+  p_url: 0.6
+  p_pay: 0.6
+  p_rep: 0.5
+alert_budget_per_user_per_day: 5

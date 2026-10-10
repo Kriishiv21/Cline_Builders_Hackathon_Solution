@@ -1,0 +1,3 @@
+version: "1.0.0"
+expiry_days: 90
+min_monitoring_floor: 0.2

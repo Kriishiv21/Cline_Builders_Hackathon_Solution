@@ -1,0 +1,8 @@
+version: "1.0.0"
+alpha_voice: 0.5
+beta_content: 0.4
+gamma_context: 0.1
+category_low_max: 30.0
+category_medium_max: 60.0
+category_high_max: 100.0
+min_confidence_for_scoring: 0.2

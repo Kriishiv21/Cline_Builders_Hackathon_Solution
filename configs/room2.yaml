@@ -1,0 +1,6 @@
+version: "1.0.0"
+lambda_decay: 0.85
+s_max: 10.0
+funnel_order_bonus: 0.3
+dormancy_hours: 48.0
+burst_multiplier: 1.5

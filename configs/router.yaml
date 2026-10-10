@@ -1,0 +1,7 @@
+version: "1.0.0"
+periodic_n_c: 10
+epsilon: 0.05
+kappa: 0.5
+token_budget: 384
+scam_exemplar_count: 3
+last_n_messages: 20

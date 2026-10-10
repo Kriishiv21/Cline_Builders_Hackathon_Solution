@@ -1,0 +1,8 @@
+version: "1.0.0"
+weight_aasist: 0.6
+weight_phonetic: 0.4
+smoothing_method: "moving_median"
+smoothing_window_n: 3
+operating_point_threshold: 0.6
+merge_max_gap_s: 2.0
+merge_min_duration_s: 1.0

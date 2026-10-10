@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+.pytest_cache/
+feedback_ledger*.jsonl
+*.wav
+*.flac
+experiments/predictions/
+experiments/figures/

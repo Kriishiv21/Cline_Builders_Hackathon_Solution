@@ -1,0 +1,29 @@
+version: "1.0.0"
+negation_window_tokens: 4
+negation_markers: ["never", "don't", "do", "not", "avoid", "beware", "ignore", "won't"]
+categories:
+  urgency:
+    - { phrase: "act now", weight: 0.6 }
+    - { phrase: "urgent", weight: 0.5 }
+    - { phrase: "immediately", weight: 0.5 }
+    - { phrase: "last chance", weight: 0.6 }
+    - { phrase: "within 24 hours", weight: 0.6 }
+  money:
+    - { phrase: "transfer money", weight: 0.7 }
+    - { phrase: "send money", weight: 0.7 }
+    - { phrase: "processing fee", weight: 0.6 }
+    - { phrase: "pay now", weight: 0.6 }
+    - { phrase: "investment opportunity", weight: 0.5 }
+  otp:
+    - { phrase: "share your otp", weight: 0.9 }
+    - { phrase: "otp code", weight: 0.4 }
+    - { phrase: "verification code", weight: 0.5 }
+  authority:
+    - { phrase: "bank official", weight: 0.5 }
+    - { phrase: "police department", weight: 0.5 }
+    - { phrase: "income tax department", weight: 0.5 }
+    - { phrase: "customs officer", weight: 0.5 }
+  off_platform:
+    - { phrase: "move to whatsapp", weight: 0.6 }
+    - { phrase: "continue on telegram", weight: 0.6 }
+    - { phrase: "call this number", weight: 0.4 }

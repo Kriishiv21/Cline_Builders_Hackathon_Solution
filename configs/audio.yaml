@@ -1,0 +1,21 @@
+version: "1.0.0"
+window_s: 4.0
+hop_s: 2.0
+vad_frame_ms: 30
+vad_energy_threshold: 0.001
+detector_specs:
+  aasist:
+    sample_rate: 16000
+    fixed_length_samples: 64600   # ~4.04s, official AASIST recipe
+    pre_emphasis: null             # official AASIST baseline: no pre-emphasis
+    crop_policy: first
+  wav2vec2_style:
+    sample_rate: 16000
+    fixed_length_samples: 64600
+    pre_emphasis: 0.97
+    crop_policy: random
+  phonetic:
+    sample_rate: 16000
+    fixed_length_samples: 64600
+    pre_emphasis: null
+    crop_policy: first

@@ -1,0 +1,7 @@
+version: "1.0.0"
+lookup_timeout_s: 0.05
+unknown_prior: 0.3
+shortener_domains: ["bit.ly", "tinyurl.com", "t.co", "goo.gl", "cutt.ly"]
+blocklist_domains: ["definitely-not-a-bank-security.example", "kyc-update-urgent.example"]
+blocklist_phone_prefixes: ["+1900"]
+trusted_tlds: ["com", "org", "net", "gov", "edu", "in", "co.in", "gov.in"]
